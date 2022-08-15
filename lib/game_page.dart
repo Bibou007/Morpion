@@ -146,7 +146,7 @@ class _GamePageState extends State<GamePage> {
         if (playerPosition0 == playerPosition1 &&
             playerPosition0 == playerPosition2) {
           //TOUTES LES CASES SONT EGALES
-          showGameOverMessage('Player $playerPosition0 won');
+          showGameOverMessage('Le joueur $playerPosition0 gagne');
           gameEnd = true;
           return;
         }
