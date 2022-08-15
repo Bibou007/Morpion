@@ -105,11 +105,7 @@ class _GamePageState extends State<GamePage> {
                 : Colors.orangeAccent,
           borderRadius: BorderRadius.circular(15.0)),
         margin: const EdgeInsets.all(8),
-        // color: occupied[index].isEmpty
-        //     ? Colors.black26
-        //     : occupied[index] == PLAYER_X
-        //         ? Colors.blue
-        //         : Colors.orangeAccent,
+       
         child: Center(
             child: Text(
           occupied[index],
